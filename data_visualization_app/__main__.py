@@ -4,7 +4,7 @@ import sys
 import qdarkstyle
 from PyQt5.QtWidgets import QApplication
 
-from Pyqt_signals_slots.data_viz_app.gui.view_project import ViewProject
+from data_visualization_app.gui.view_project import ViewProject
 logger = logging.getLogger()
 
 

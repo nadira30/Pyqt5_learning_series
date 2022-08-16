@@ -42,7 +42,7 @@ class ViewProject(QMainWindow):
         self.searchbar.textChanged.connect(self.update_display)
         self.scroll_area = QScrollArea()
 
-        self.df = pd.read_csv(pkg_resources.resource_filename('Pyqt_signals_slots.data_viz_app.core', 'data.csv'))
+        self.df = pd.read_csv(pkg_resources.resource_filename('data_visualization_app.core', 'data.csv'))
 
         self.create_mainwindow()
 

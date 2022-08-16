@@ -4,7 +4,7 @@ import sys
 import qdarkstyle
 from PyQt5.QtWidgets import QApplication
 
-from Pyqt_signals_slots.basic_pyqt.basic_signal_slot import BasicSignalSlots
+from basic_pyqt.basic_signal_slot import BasicSignalSlots
 logger = logging.getLogger()
 
 
